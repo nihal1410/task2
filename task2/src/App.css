@@ -1,0 +1,43 @@
+/* Navbar */
+.navname{
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 174, 255, 0.411);
+  margin-top: 0px;
+  margin-bottom: 20px;
+  position: sticky;
+  font-style: bold;
+  padding: 10px 0px 15px;
+  text-align: left;
+  font-size: 25px;
+}
+
+ul li{
+  margin-right: 100px;
+  display: inline;
+}
+/* Footer */
+.footer{
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 132, 255, 0.349);
+  position: relative;
+  bottom: 0;
+  margin: 0 0 -25px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  }
+  /* About */
+.about{
+  margin-bottom: -27px;
+  text-align:justify;
+  backdrop-filter: blur(50px);
+
+}
+/* content */
+.content{
+  display: grid;
+  color:#f1f1f1;
+  grid-template-columns: repeat(3, 1fr);
+  margin:-20px 0px -25px 10px;
+
+}
